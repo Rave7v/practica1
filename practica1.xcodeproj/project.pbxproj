@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4809CEAB27BAA75400B1D0CD /* pantallatresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4809CEAA27BAA75400B1D0CD /* pantallatresViewController.swift */; };
 		4814914427B2BF6700AFFCC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4814914327B2BF6700AFFCC8 /* AppDelegate.swift */; };
 		4814914627B2BF6700AFFCC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4814914527B2BF6700AFFCC8 /* SceneDelegate.swift */; };
 		4814914827B2BF6700AFFCC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4814914727B2BF6700AFFCC8 /* ViewController.swift */; };
 		4814914B27B2BF6700AFFCC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4814914927B2BF6700AFFCC8 /* Main.storyboard */; };
 		4814914D27B2BF6800AFFCC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4814914C27B2BF6800AFFCC8 /* Assets.xcassets */; };
 		4814915027B2BF6800AFFCC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4814914E27B2BF6800AFFCC8 /* LaunchScreen.storyboard */; };
+		48F3CD3627B6B8B700DC294D /* pantalla2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3CD3527B6B8B700DC294D /* pantalla2ViewController.swift */; };
+		48F3CD3A27B6B8F600DC294D /* pantalla3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F3CD3927B6B8F600DC294D /* pantalla3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4809CEAA27BAA75400B1D0CD /* pantallatresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantallatresViewController.swift; sourceTree = "<group>"; };
 		4814914027B2BF6700AFFCC8 /* practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4814914327B2BF6700AFFCC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4814914527B2BF6700AFFCC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		4814914C27B2BF6800AFFCC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4814914F27B2BF6800AFFCC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4814915127B2BF6800AFFCC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F3CD3527B6B8B700DC294D /* pantalla2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla2ViewController.swift; sourceTree = "<group>"; };
+		48F3CD3927B6B8F600DC294D /* pantalla3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				4814914C27B2BF6800AFFCC8 /* Assets.xcassets */,
 				4814914E27B2BF6800AFFCC8 /* LaunchScreen.storyboard */,
 				4814915127B2BF6800AFFCC8 /* Info.plist */,
+				48F3CD3527B6B8B700DC294D /* pantalla2ViewController.swift */,
+				48F3CD3927B6B8F600DC294D /* pantalla3ViewController.swift */,
+				4809CEAA27BAA75400B1D0CD /* pantallatresViewController.swift */,
 			);
 			path = practica1;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4809CEAB27BAA75400B1D0CD /* pantallatresViewController.swift in Sources */,
 				4814914827B2BF6700AFFCC8 /* ViewController.swift in Sources */,
 				4814914427B2BF6700AFFCC8 /* AppDelegate.swift in Sources */,
+				48F3CD3627B6B8B700DC294D /* pantalla2ViewController.swift in Sources */,
+				48F3CD3A27B6B8F600DC294D /* pantalla3ViewController.swift in Sources */,
 				4814914627B2BF6700AFFCC8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
